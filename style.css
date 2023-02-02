@@ -16,7 +16,7 @@
 
 @font-face {
   font-family: "rainyhearts";
-  src: url("file:FreePixel.ttf");
+  src: url("FreePixel.ttf");
 }
 
 * {
@@ -126,6 +126,7 @@ button {
 .content-body p {
   font-family: "rainyhearts";
   font-size: medium;
+  font-weight:500;
 }
 
 .content-body a {
