@@ -246,6 +246,13 @@ body main::-webkit-scrollbar-thumb {
   width: 80%;
 }
 
+#icon-row {
+  margin: auto;
+}
+
+.link-icons {
+  height: 24px;
+}
 
 @media (min-width:600px) {
 .content-card {
