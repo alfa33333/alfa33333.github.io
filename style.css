@@ -246,6 +246,7 @@ body main::-webkit-scrollbar-thumb {
   width: 80%;
 }
 
+
 @media (min-width:600px) {
 .content-card {
   width: 480px;
