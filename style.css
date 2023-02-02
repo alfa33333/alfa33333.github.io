@@ -166,7 +166,7 @@ button {
 
 .content-footer {
   border: 1px solid var(--black);
-  max-width: 800px;
+  max-width: 480px;
   max-height: 240px;
   background-color: var(--white);
   margin: 1% auto;
