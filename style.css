@@ -254,6 +254,24 @@ body main::-webkit-scrollbar-thumb {
   height: 24px;
 }
 
+@media (max-width:375px) {
+  .App-header {
+    width: 100%;
+  }
+
+  .App-header nav {
+    display: flex;
+    flex-wrap: wrap;
+    overflow-x: auto;
+  }
+  .App-header nav a{
+    font-size: small;
+    text-align: center;
+    flex:0;
+  }
+}
+
+
 @media (min-width:600px) {
 .content-card {
   width: 480px;
