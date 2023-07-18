@@ -283,4 +283,12 @@ body main::-webkit-scrollbar-thumb {
   justify-content: space-evenly;
   gap: 50px;
 }
+
+.App-main p {
+  font-size: 20px;
+  font-weight:  600;
+}
+.content-footer {
+  max-height: 300px;
+}
 }
