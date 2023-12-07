@@ -1,0 +1,41 @@
+:root {
+    --card-grey: #ebebe6;
+}
+.cv-card {
+    background-color: var(--card-grey);
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 500px;
+
+}
+
+.cv-card i {
+    padding-right: 5px;
+}
+.cv-card h2 {
+    margin-top: 0;
+}
+
+.cv-card a {
+    color: black;
+    background-color: var(--white);
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 0px 10px;
+    font-size: small;
+}
+
+#hiddenToronto,#hiddenCanterbury, 
+#hiddenGlasgow, #hiddenUG,
+#hiddenCinves {
+    display: none;
+}
+
+#hiddenToronto:target, #hiddenCanterbury:target,
+#hiddenGlasgow:target, #hiddenUG:target,
+#hiddenCinves:target {
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+}
