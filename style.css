@@ -272,7 +272,7 @@ body main::-webkit-scrollbar-thumb {
 
 .app-container{
   display: flex;
-  gap: 16px;
+  /* gap: 16px; */
   flex-grow: 1;
 }
 .app-index {
