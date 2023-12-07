@@ -297,6 +297,11 @@ body main::-webkit-scrollbar-thumb {
   margin: 0;
 }
 
+.cv-section li {
+  padding-bottom: 5px;
+}
+
+
 .cv-section > ul  small{
   display: block;
 }
