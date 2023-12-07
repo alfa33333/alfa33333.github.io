@@ -290,6 +290,19 @@ body main::-webkit-scrollbar-thumb {
   padding: 10px;
 }
 
+/* CV section */
+
+.cv-section > ul {
+  list-style: none;
+  margin: 0;
+}
+
+.cv-section > ul  small{
+  display: block;
+}
+
+
+
 @media (max-width:375px) {
   .App-header {
     width: 100%;
