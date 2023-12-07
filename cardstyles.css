@@ -17,11 +17,24 @@
     margin-top: 0;
 }
 
-#hiddenToronto,#hiddenCanterbury {
+.cv-card a {
+    color: black;
+    background-color: var(--white);
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 0px 10px;
+    font-size: small;
+}
+
+#hiddenToronto,#hiddenCanterbury, 
+#hiddenGlasgow, #hiddenUG,
+#hiddenCinves {
     display: none;
 }
 
-#hiddenToronto:target, #hiddenCanterbury:target {
+#hiddenToronto:target, #hiddenCanterbury:target,
+#hiddenGlasgow:target, #hiddenUG:target,
+#hiddenCinves:target {
     display: block;
     font-size: 14px;
     font-weight: 400;

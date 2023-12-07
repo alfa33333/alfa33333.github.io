@@ -301,10 +301,11 @@ body main::-webkit-scrollbar-thumb {
 .cv-section > ul {
   list-style: none;
   margin: 0;
+  padding: 5px;
 }
 
 .cv-section li {
-  padding-bottom: 5px;
+  padding-bottom: 15px;
 }
 
 
