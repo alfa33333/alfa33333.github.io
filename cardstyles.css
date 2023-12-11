@@ -2,12 +2,12 @@
     --card-grey: #ebebe6;
 }
 .cv-card {
+    flex-basis: 30%;
     background-color: var(--card-grey);
     border: 1px solid;
     border-radius: 10px;
     padding: 10px;
     max-width: 500px;
-
 }
 
 .cv-card i {
@@ -17,7 +17,9 @@
     margin-top: 0;
 }
 
-.cv-card a {
+.cv-card summary {
+    width: fit-content;
+    cursor: pointer;
     color: black;
     background-color: var(--white);
     border: 1px solid;
@@ -26,16 +28,15 @@
     font-size: small;
 }
 
-#hiddenToronto,#hiddenCanterbury, 
-#hiddenGlasgow, #hiddenUG,
-#hiddenCinves {
-    display: none;
+.cv-card summary::open{
+    background-color: black;
 }
 
-#hiddenToronto:target, #hiddenCanterbury:target,
-#hiddenGlasgow:target, #hiddenUG:target,
-#hiddenCinves:target {
-    display: block;
-    font-size: 14px;
-    font-weight: 400;
+.cv-card .small-summary {
+    font-size: 16px;
+    font-weight:  400;
+}
+
+#Skills {
+    align-self: start;  
 }
