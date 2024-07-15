@@ -1,7 +1,8 @@
 /* Free Pixel font by levelb https://www.dafont.com/levelb.d4247?fpp=50 */
 
 :root {
-  --container-width: 50rem;
+  font-size: 4px;
+  --container-width: 200rem;
   --black: black;
   --shadow: rgba(29, 30, 28, 0.26);
   --gray: #a2a2a2;
@@ -10,7 +11,7 @@
   --active-color: var(--white);
   --scrollBg: var(--black);
   --scrollThumb: var(--blue);
-  font-size: 4px;
+  
   /* --font: "Vidaloka", serif;
     --font-alt: "Share Tech Mono", monospace; */
 }
@@ -94,7 +95,7 @@ button {
 }
 
 .App-header nav a {
-  font-size: 5rem;
+  font-size: 6rem;
   --color: var(--black);
   color: var(--color);
   text-decoration: none;
@@ -150,7 +151,7 @@ button {
 .content-header {
   text-align: left;
   padding: 0px;
-  font-size: 14px;
+  font-size: 6rem;
   font-weight: 700;
   border-bottom: 2px solid var(--black);
   display:grid;
@@ -178,6 +179,10 @@ button {
   display: flex;
   flex-direction: column;
   max-width: var(--container-width);
+}
+
+.content-body h3 {
+  font-size: 5rem;
 }
 
 .content-footer {
