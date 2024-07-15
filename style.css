@@ -10,6 +10,7 @@
   --active-color: var(--white);
   --scrollBg: var(--black);
   --scrollThumb: var(--blue);
+  font-size: 4px;
   /* --font: "Vidaloka", serif;
     --font-alt: "Share Tech Mono", monospace; */
 }
@@ -93,7 +94,7 @@ button {
 }
 
 .App-header nav a {
-  font-size: 14px;
+  font-size: 5rem;
   --color: var(--black);
   color: var(--color);
   text-decoration: none;

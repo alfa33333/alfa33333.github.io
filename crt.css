@@ -1,0 +1,15 @@
+.crt-emulation {
+    position: relative;
+    filter: sepia(15%) hue-rotate(180deg) blur(0.2rem) brightness(1.2) contrast(1.5) blur(0.2rem);
+}
+
+.crt-emulation::after{
+    pointer-events: none;
+    content: "";
+    position: absolute;
+    top: 0; right: 0;
+    bottom: 0; left: 0;
+    background-image: url("img/scanline.png");
+    background-size: 1rem 1rem;
+    image-rendering: auto;
+}
