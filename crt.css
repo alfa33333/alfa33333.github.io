@@ -1,6 +1,6 @@
 .crt-emulation {
     position: relative;
-    filter: sepia(15%) hue-rotate(180deg) blur(0.2rem) brightness(1.2) contrast(1.5) blur(0.2rem);
+    filter: sepia(15%) hue-rotate(180deg) blur(0.2rem) brightness(1.2) contrast(1.8) blur(0.15rem);
 }
 
 .crt-emulation::after{

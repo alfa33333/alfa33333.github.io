@@ -139,7 +139,7 @@ button {
 
 .content-body p {
   font-family: "rainyhearts";
-  font-size: medium;
+  font-size: 5rem;
   font-weight:500;
   letter-spacing: 1.2px;
 }
@@ -151,7 +151,7 @@ button {
 .content-header {
   text-align: left;
   padding: 0px;
-  font-size: 6rem;
+  font-size: 8rem;
   font-weight: 700;
   border-bottom: 2px solid var(--black);
   display:grid;
@@ -182,7 +182,7 @@ button {
 }
 
 .content-body h3 {
-  font-size: 5rem;
+  font-size: 6rem;
 }
 
 .content-footer {
@@ -341,13 +341,10 @@ body main::-webkit-scrollbar-thumb {
 
 @media (min-width:600px) {
 .content-card {
-  width: 500px;
-  max-height: 930px;
+  width: 550px;
+  height: fit-content;
 }
 
-/* .content-app {
-  max-height: 900px;
-} */
 
 .App-main {
   display: flex; 
@@ -357,7 +354,7 @@ body main::-webkit-scrollbar-thumb {
 }
 
 .content-body > p {
-  font-size: 18px;
+  font-size: 6rem;
   font-weight:  600;
 }
 
