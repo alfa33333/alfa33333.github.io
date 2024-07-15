@@ -263,7 +263,7 @@ body main::-webkit-scrollbar-thumb {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
+  width: 100%;
 }
 
 #icon-row {
@@ -272,6 +272,14 @@ body main::-webkit-scrollbar-thumb {
 
 .link-icons {
   height: 24px;
+}
+
+.email-adjust {
+  font-family: "roboto", sans-serif;
+  font-size: 6rem;
+  overflow-wrap: break-word;
+  margin: 0;
+  padding: 0;
 }
 
 /* single App containers */
@@ -321,9 +329,13 @@ body main::-webkit-scrollbar-thumb {
 
 
 
-@media (max-width:550px) {
+@media (max-width:700px) {
   .App-header {
     width: 100%;
+  }
+
+  .content-body a {
+    font-family: "roboto", sans-serif;
   }
 
   .App-header nav {
@@ -332,14 +344,19 @@ body main::-webkit-scrollbar-thumb {
     overflow-x: auto;
   }
   .App-header nav a{
-    font-size: small;
+    font-size: large;
     text-align: center;
     flex:0;
   }
 }
 
 
-@media (min-width:600px) {
+@media (min-width:700px) {
+
+.email-adjust a {
+    font-family: "roboto", sans-serif;
+    font-size: 5rem;
+  }
 .content-card {
   width: 550px;
   height: fit-content;
