@@ -344,10 +344,17 @@ body main::-webkit-scrollbar-thumb {
     overflow-x: auto;
   }
   .App-header nav a{
-    font-size: large;
+    font-size: 5rem;
     text-align: center;
     flex:0;
   }
+
+  .content-footer {
+    max-height: none;
+  }
+
+
+
 }
 
 
