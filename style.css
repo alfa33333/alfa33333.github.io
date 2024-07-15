@@ -98,7 +98,7 @@ button {
   --color: var(--black);
   color: var(--color);
   text-decoration: none;
-  padding: 0.2rem;
+  padding: 1rem;
   display: inline-block;
   /* box-shadow: 1px 1px 1px 1px var(--shadow); */
   font-weight: 700;
@@ -316,7 +316,7 @@ body main::-webkit-scrollbar-thumb {
 
 
 
-@media (max-width:375px) {
+@media (max-width:550px) {
   .App-header {
     width: 100%;
   }
@@ -351,10 +351,12 @@ body main::-webkit-scrollbar-thumb {
   gap: 20px;
 }
 
-.App-main p {
+.content-body > p {
   font-size: 18px;
   font-weight:  600;
 }
+
+
 .content-footer {
   max-height: 300px;
 }
